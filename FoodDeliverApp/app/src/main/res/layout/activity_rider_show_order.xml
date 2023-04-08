@@ -18,7 +18,7 @@
             android:id="@+id/tv_restAppBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DataFlair Delivery Orders"
+            android:text="Customer Delivery Orders"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -30,6 +30,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll_appBar"
-        tools:listitem="@layout/rider_layout_show_order" />
+        tools:listitem="@layout/activity_customer_dashboard" />
 
 </RelativeLayout>

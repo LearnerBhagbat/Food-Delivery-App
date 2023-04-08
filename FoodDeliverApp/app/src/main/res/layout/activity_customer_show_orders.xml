@@ -18,7 +18,7 @@
             android:id="@+id/tv_restAppBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DataFlair Passenger Orders"
+            android:text="Customer Orders"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -30,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll_appBar"
+        android:layout_marginTop="0dp"
         tools:listitem="@layout/layout_show_orders" />
 
 </RelativeLayout>

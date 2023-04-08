@@ -9,14 +9,14 @@
         android:id="@+id/ll_appBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/background4"
+        android:background="#EF530B"
         android:padding="16dp">
 
         <TextView
             android:id="@+id/tv_restAppBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DataFlair Passenger Cart"
+            android:text="Customer Cart"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:layout_marginTop="100dp"
-                    android:background="@drawable/bg_rounded_input_field"
+                    android:background="#EF530B"
                     android:text="Order"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
